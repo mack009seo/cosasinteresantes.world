@@ -1,0 +1,21 @@
+baseURL: "https://TU_DOMINIO.com/"
+languageCode: "es-es"
+title: "TU TITULO DEL BLOG"
+
+theme: "bookworm-light"
+
+paginate: 10
+enableRobotsTXT: true
+buildFuture: false
+
+permalinks:
+  posts: /:slug/
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+params:
+  description: "DESCRIPCIÓN GENERAL DEL BLOG"
+  author: "TU NOMBRE"
