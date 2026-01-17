@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://TU_DOMINIO.com/sitemap.xml
+Sitemap: https://cosasinteresantes.world/sitemap.xml
