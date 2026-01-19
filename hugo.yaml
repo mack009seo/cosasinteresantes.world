@@ -4,9 +4,13 @@ title: "TU TITULO DEL BLOG"
 
 theme: "bookworm-light"
 
-paginate: 10
+pagination:
+  pagerSize: 10
 enableRobotsTXT: true
 buildFuture: false
+
+ignoreLogs:
+  - 'warning-goldmark-raw-html'
 
 permalinks:
   posts: /:slug/
