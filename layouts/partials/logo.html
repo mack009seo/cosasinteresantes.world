@@ -1,0 +1,8 @@
+{{/* Logo del sitio */}}
+<a href="{{ "" | absLangURL }}" class="navbar-brand">
+  {{ if site.Params.logo }}
+    <img src="{{ site.Params.logo | relURL }}" alt="{{ site.Title }}" height="{{ site.Params.logo_height | default "40" }}">
+  {{ else }}
+    <span class="navbar-brand__text">{{ site.Title }}</span>
+  {{ end }}
+</a>
